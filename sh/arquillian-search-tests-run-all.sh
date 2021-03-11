@@ -133,8 +133,8 @@ test_run depot/depot-test \
 test_run dynamic-data-lists/dynamic-data-lists-test \
 	*.search.*Test
 
-test_run layout/layout-test \
-	*.search.*Test
+# test_run layout/layout-test \
+# 	*.search.*Test
 
 test_run message-boards/message-boards-test \
 	*.search.*Test \
