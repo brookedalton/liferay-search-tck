@@ -22,6 +22,14 @@ test_run portal-search/portal-search-test \
 	*Test \
 ; \
 
+test_run portal-search-tuning/portal-search-tuning-blueprints-test \
+	*Test \
+; \
+
+test_run portal-search-tuning/portal-search-tuning-blueprints-engine-test \
+	*Test \
+; \
+
 # Highest coverage of Search (most critical first)
 
 test_run change-tracking/change-tracking-test \
